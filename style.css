@@ -1,0 +1,143 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+section{
+    width: 1024px;
+    margin: auto;
+
+}
+
+.main{
+    width: 1024px;
+    /* height: 768px; * dont give height  */
+    margin: auto;
+
+}
+
+.homepage{
+    background-image: url(bg.jpg);
+    position: absolute;
+    width: 1024px;
+    height: 768px;
+}
+
+.logo{
+    float: left;
+}
+
+.logo img{
+    width: 332px;
+    height: 85px;
+    margin-top: 30px;
+}
+
+@font-face {
+    font-family: stewartsans;
+    src: url(stewart-sans-cufonfonts-webfont/stewartsans.woff);
+  }
+
+  .hover {
+    /* margin-left: 364px; */
+    /* margin-top: -52px; */
+    float: right;
+}
+
+.hover ul {
+    float:left ;
+
+}
+
+.hover ul li {
+    list-style: none;
+    float: left;
+    font-family: stewartsans;
+    /* font-weight: bold; */
+}
+
+.hover ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    /* padding: 0px; */
+    border-right: 1px solid #e1c3d4;
+    /* margin: 28px; */
+    /* border-spacing: 1px; */
+    padding-right: 19px;
+    float: left;
+    padding: 0px 30px;
+    margin-top: 80px;
+}
+
+    .mainbox {
+        width: 100%;
+        /* height: 540px; */
+        /* margin: auto; */
+        /* position: absolute; */
+        float: left;
+    }
+
+    .whitebox {
+        width: 1022px;
+        height: 540px;
+        background-color: white;
+        margin-top: 29px;
+        margin-left: 1.5px;
+    }
+
+.whitebox img {
+    margin-left: 14px;
+    width: 185px;
+    height: 474px;
+    margin-top: 15px;
+    /* margin: auto; */
+}
+
+@font-face {
+    font-family: stewartsans;
+    src: url(stewart-sans-cufonfonts-webfont/stewartsans.woff);
+  }
+.downhover ul{
+    float: left;
+}
+
+.downhover ul li{
+    list-style-type: none;
+}
+
+.downhover ul li a {
+    text-decoration: none;
+    font-family: stewartsans;
+    font-weight: bolder;
+    padding: 0px 9px;
+    color: #a0a0a0;
+    border-right: 1px solid #e1c3d4;
+    border-top-left-radius: 1px;
+}
+
+.socialmedia{
+    float: right;
+}
+
+/* .icon img{
+    float: left;
+    margin-top: 6px;
+    margin-right: 25px;
+    position: absolute;
+    padding: 12px;
+} */
+
+.pic01 {
+    margin-bottom: 10px;
+}
+
+img.pic02 {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 7px;
+}
+
+#pic03 {
+    margin-right: 27px;
+    margin-bottom: 15px;
+}   
